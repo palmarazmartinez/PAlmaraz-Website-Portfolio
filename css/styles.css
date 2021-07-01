@@ -3,7 +3,6 @@
 
 }
 
-
 body {
   margin: 60px auto;
   max-width: 100%;
@@ -26,6 +25,8 @@ padding: 30px;
 h1{
   font-family: 'Courgette', cursive;
   text-align: center;
+  margin-top: 90px;
+  margin-bottom: 20px;
 }
 
 .secondary-font{
@@ -46,5 +47,5 @@ background-color: white;
 font-family: 'Archivo', sans-serif;
 text-align: center;
 font-size: 15px;
-
+margin: 15px 10px 10px 35px;
 }
