@@ -3,6 +3,7 @@
   --secondary-font: (font-family: 'Archivo', sans-serif);
   --main-color:#25161b; 
   --secondary-color: #35013f;
+  --third-color: #F8F9FA;
 }
 
 body {
@@ -17,6 +18,7 @@ padding: 30px;
 .nav-text{
   font-family: var(--secondary-font);
   text-align: center;
+ 
 }
 
 .fixed-top {
@@ -65,4 +67,21 @@ margin: 20px 10px 10px 30px;
 border: solid 2px;
 background-color:white;
 color: var(--secondary-color);
+}
+
+.coder-tools{
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  margin:0 auto;
+  padding-top: 15px;
+  font-size: 50px;
+  color: var(--main-color);
+  background-color: var(--third-color);
+  border: none;
+}
+
+.tools-pic{
+  background-color: var(--third-color);
+  padding-top: 15px;
+  padding-bottom: 20px;;
 }
