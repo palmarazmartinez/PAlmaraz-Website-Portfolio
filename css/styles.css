@@ -1,6 +1,12 @@
+:root {
+  --brand-color: #6c63ff;
+
+}
+
+
 body {
   margin: 60px auto;
-  max-width: 90%;
+  max-width: 100%;
 }
 
 .fixed-top {
@@ -10,6 +16,12 @@ body {
   left: 0;
   z-index: 1030;
 }
+
+.coder{
+background: var(--brand-color);
+padding: 30px;
+}
+
 
 h1{
   font-family: 'Courgette', cursive;
@@ -26,4 +38,13 @@ h1{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.style-button{
+border: solid;
+background-color: white;
+font-family: 'Archivo', sans-serif;
+text-align: center;
+font-size: 15px;
+
 }
