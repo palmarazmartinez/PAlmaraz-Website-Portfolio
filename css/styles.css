@@ -1,11 +1,29 @@
+body {
+  margin: 60px auto;
+  max-width: 90%;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
 h1{
   font-family: 'Courgette', cursive;
+  text-align: center;
 }
 
 .secondary-font{
   font-family: 'Archivo', sans-serif;
+  text-align: center;
 }
 
 .pa-pic{
-  max-width: 100px;;
+  max-width: 320px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
