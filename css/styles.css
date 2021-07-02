@@ -92,6 +92,9 @@ color: var(--secondary-color);
   margin-top: 20px;
   margin-bottom:0px;
   color: var(--main-color);
-  text-decoration: none;
 }
 
+.gitLink, .netlifyLink{
+  text-decoration: none;
+  color:#feffdf;
+}
