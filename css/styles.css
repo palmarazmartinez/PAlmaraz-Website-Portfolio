@@ -7,7 +7,7 @@
 }
 
 body {
-  margin: 80px auto;
+  margin: 70px auto;
   max-width: 100%;
 }
 .coder{
@@ -36,7 +36,6 @@ padding: 20px;
   margin-bottom: 20px;
   font-size: 55px;
   color: var(--main-color);
- 
 }
 
 .index-text{
@@ -85,4 +84,12 @@ color: var(--secondary-color);
   background-color: var(--third-color);
   padding-top: 15px;
   padding-bottom: 20px;;
+}
+
+.coder-links{
+  font-family: 'Courgette', cursive;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom:0px;
+  color: var(--main-color);
 }
