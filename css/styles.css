@@ -6,11 +6,9 @@
   --third-color: #F8F9FA;
 }
 
-body {
+.coder{
   margin: 70px auto;
   max-width: 100%;
-}
-.coder{
 background: var(--brand-color);
 padding: 20px;
 }
@@ -80,10 +78,10 @@ color: var(--secondary-color);
   max-width: 100%;
 }
 
-.tools-pic{
+.toolsDesign{
   background-color: var(--third-color);
   padding-top: 15px;
-  padding-bottom: 20px;;
+  padding-bottom: 20px;
 }
 
 .coder-links{
@@ -97,4 +95,38 @@ color: var(--secondary-color);
 .gitLink, .netlifyLink{
   text-decoration: none;
   color:#feffdf;
+}
+
+@media (max-width: 576px) {
+  .coder{
+  margin: 0 auto;
+  background: var(--brand-color);
+  padding: 20px;
+  }
+
+ .coder-name {
+    font-size: 40px;
+    line-height: 1.5;
+    margin-bottom:5px;
+  }
+
+ .index-text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+.coder-tools {
+  text-align: center;
+  font-size: 40px;
+  }
+
+  .tools-pic{
+    height: 55px;
+    padding: 5px; 
+    margin-left: 40%;
+  }
+
+  .col-sm-1{
+    max-width: min-content;
+  }
 }
