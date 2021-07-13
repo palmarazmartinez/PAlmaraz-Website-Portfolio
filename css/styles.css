@@ -97,7 +97,7 @@ color: var(--secondary-color);
 .about-heading{
   font-family: 'Courgette', cursive;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 10px;
   margin-bottom: 20px;
   font-size: 55px;
   color: var(--main-color);
@@ -129,10 +129,6 @@ color: var(--secondary-color);
   color: var(--secondary-color);
   }
   
-
-
-
-
 .contactMe-heading{
   font-family: 'Courgette', cursive;
   text-align: center;
@@ -156,6 +152,7 @@ color: var(--secondary-color);
 
 
 
+
 @media (max-width: 576px) {
   .coder{
   margin: 0 auto;
@@ -174,7 +171,7 @@ color: var(--secondary-color);
     text-align: center;
   }
 
-.coder-tools {
+  .coder-tools {
   text-align: center;
   font-size: 40px;
   }
@@ -188,4 +185,32 @@ color: var(--secondary-color);
   .col-sm-1{
     max-width: min-content;
   }
+
+  .about-heading{
+    font-size: 38px;
+    margin-top: 50px;
+    margin-bottom: 5px;;
+  }
+
+  .aboutMe-text{
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.5;
+   padding-bottom: 0px;
+   margin-bottom: 12px;
+  }
+
+  .resume-button{
+    font-size: 15px;
+    margin-bottom: 15px;
+    }
+
+  .contactMe-heading{
+    font-size: 35px;
+    }
+    
+  .coder-contacts{
+      font-size: 17px;
+    }
+
 }
