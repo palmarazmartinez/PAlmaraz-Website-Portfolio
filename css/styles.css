@@ -127,7 +127,7 @@ color: var(--secondary-color);
   margin: 0 auto;
   }
   
-  .resume-button:hover{
+.resume-button:hover{
   border: solid 2px;
   background-color:white;
   color: var(--secondary-color);
