@@ -7,8 +7,8 @@
 }
 
 .coder{
-  margin: 70px auto;
-  max-width: 100%;
+margin: 70px auto;
+max-width: 100%;
 background: var(--brand-color);
 padding: 20px;
 }
@@ -91,9 +91,17 @@ color: var(--secondary-color);
 }
 
 .gitLink, .netlifyLink{
-  text-decoration: none;
   color:#feffdf;
 }
+
+.coder-contacts{
+  text-align: center;
+  font-family: var(--secondary-font);
+  color:  var(--secondary-color);
+  font-size: 20px;
+}
+
+
 
 @media (max-width: 576px) {
   .coder{
