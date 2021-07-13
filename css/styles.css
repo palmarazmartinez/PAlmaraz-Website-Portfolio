@@ -113,6 +113,10 @@ color: var(--secondary-color);
   padding-bottom: 30px;
 }
 
+.shecodesLink{
+  color: #672EED;
+}
+
 .resume-button{
   border: solid 2px;
   background-color:var(--secondary-color);
