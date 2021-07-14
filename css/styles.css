@@ -103,6 +103,10 @@ color: var(--secondary-color);
   color: var(--main-color);
 }
 
+.aboutMe-pic{
+height: 300px;
+}
+
 .aboutMe-text{
   text-align: left;
   font-family: var(--secondary-font);
@@ -136,7 +140,7 @@ color: var(--secondary-color);
 .contactMe-heading{
   font-family: 'Courgette', cursive;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-top: 0px;;
   font-size: 55px;
   color: var(--main-color);
@@ -147,15 +151,12 @@ color: var(--secondary-color);
   font-size: 20px;
   color:  var(--secondary-color);
   text-decoration: none;
-  text-align: center;
+padding-top: 5px;
 }
 
 .coder-contacts:hover{
   text-decoration: underline;
 }
-
-
-
 
 @media (max-width: 576px) {
   .coder{
@@ -195,26 +196,39 @@ color: var(--secondary-color);
     margin-top: 50px;
     margin-bottom: 5px;;
   }
-
+  
   .aboutMe-text{
     font-size: 16px;
     text-align: center;
     line-height: 1.5;
-   padding-bottom: 0px;
-   margin-bottom: 12px;
-  }
-
-  .resume-button{
-    font-size: 15px;
+    padding-bottom: 0px;
     margin-bottom: 15px;
     }
-
-  .contactMe-heading{
-    font-size: 35px;
-    }
+  
+  .resume-button{
+      font-size: 15px;
+      margin-bottom: 15px;
+      }
     
-  .coder-contacts{
-      font-size: 17px;
-    }
+  .aboutMe-pic{
+   height: 150px;
+  }
+
+.contactMe-heading{
+  font-size: 35px;
+   }
+    
+  .text-end{
+  text-align: center !important;
+  }
+
+  .pt-5{
+    padding-top: 10px !important;
+    text-align: center !important;
+  }
+.coder-contacts{
+  font-size: 17px;
+  margin-bottom: 0px;
+  }
 
 }
