@@ -97,7 +97,7 @@ color: var(--secondary-color);
 .site-heading{
   font-family: 'Courgette', cursive;
   text-align: center;
-  margin-top: 10px;
+  margin-top:10px;
   margin-bottom: 20px;
   font-size: 55px;
   color: var(--main-color);
@@ -158,12 +158,41 @@ padding-top: 5px;
   text-decoration: underline;
 }
 
-.project-text{
+.look-text{
   font-family: var(--secondary-font);
   font-size: 30px;
   color:  var(--secondary-color);
   text-align: center;
+  margin-bottom: 50px;
 }
+
+.projects-images{
+  height: 250px;
+  
+}
+ .projects-heading{
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  color:  var(--secondary-color);
+  text-align: center;
+ }
+
+ .projects-text{
+  font-family: var(--secondary-font);
+  font-size: 20px;
+  color:  var(--secondary-color);
+  text-align: center;
+ }
+
+ .tools-used{
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  color:  var(--secondary-color);
+  text-align: center;
+ }
+
+
+
 
 
 
@@ -195,17 +224,16 @@ padding-top: 5px;
   .tools-pic{
     height: 55px;
     padding: 5px; 
-    margin-left: 40%;
   }
 
   .col-sm-1{
     max-width: min-content;
   }
 
-  .about-heading{
+  .site-heading{
     font-size: 38px;
-    margin-top: 50px;
-    margin-bottom: 5px;;
+    margin-top: 55px;
+    margin-bottom: 5px;
   }
   
   .aboutMe-text{
@@ -238,7 +266,7 @@ padding-top: 5px;
     text-align: center !important;
   }
 .coder-contacts{
-  font-size: 17px;
+  font-size: 15px;
   margin-bottom: 0px;
   }
 
